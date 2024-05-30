@@ -123,6 +123,16 @@ int main() {
 				q.remove();
 				break;
 			}
+			case '3': {
+				q.display();
+				break;
+			}
 			
+		catch (exception& e) {
+			cout << "Check for thr values entered." << endl;
+		}
+	}
+
+	return 0;
 }
 	
