@@ -60,5 +60,5 @@ public:
 				FRONT = FRONT = 1;
 		}
 	}
-
+};
 	
