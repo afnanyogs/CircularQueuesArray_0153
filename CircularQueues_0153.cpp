@@ -127,7 +127,12 @@ int main() {
 				q.display();
 				break;
 			}
+			case '4': {
+				return 0;
+			}
 			
+			}
+		}
 		catch (exception& e) {
 			cout << "Check for thr values entered." << endl;
 		}
