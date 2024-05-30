@@ -4,7 +4,7 @@ using namespace std;
 //CircularQueuesArray_0153
 
 class Queues {
-	int FRONT, REAR, maxb = 5;
+	int FRONT, REAR, max = 5;
 	int queue_array[5];
 
 public:
@@ -13,5 +13,5 @@ public:
 		REAR = -1;
 	}
 
-	
-};
+	void insert() {
+		
