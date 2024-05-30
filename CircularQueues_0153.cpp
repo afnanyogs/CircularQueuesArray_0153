@@ -7,3 +7,11 @@ class Queues {
 	int FRONT, REAR, maxb = 5;
 	int queue_array[5];
 
+public:
+	Queues() {
+		FRONT = -1;
+		REAR = -1;
+	}
+
+	
+};
